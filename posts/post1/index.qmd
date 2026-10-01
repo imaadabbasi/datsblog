@@ -13,7 +13,7 @@ Today is my first day as an assistant teacher for *FoodPrints*, an organization 
 
 ![Figure 1. Map of Grocery Stores in DC (2023)](images/Grocery_Store_Map.png)
 
-Yesterday, I completed an assignment on the map above for the class at my university which put me through the FoodPrints program &mdash; Hands-On Food Education in the **Global Food Institute Department** &mdash; and it was evident that grocery stores fell short on the east side. Moreover, I found an all-or-nothing phenomenon; many areas of the East side contained no grocery stores, while other areas boasted several grocery stores stacked on top of each other. This is a common trend on this map, where services are not well distributed among the District, but rather huddled together where the stores can maximize profit. The focus is not on giving residents access to resources.
+Yesterday, I examined this map for the university class which put me through FoodPrints &mdash; Hands-On Food Education in the **Global Food Institute Department** &mdash; and it was evident that grocery stores fell short on the east side. Moreover, I found an all-or-nothing phenomenon; many areas of the East side contained no grocery stores, while other areas boasted several grocery stores stacked on top of each other. This is a common trend on this map, where services are not well distributed among the District, but rather huddled together where the stores can maximize profit. The focus is not on giving residents access to resources.
 
 ![Figure 2. DC Transit on Google Maps](images/DC_Transit_Map.png)
 
