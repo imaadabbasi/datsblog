@@ -1,0 +1,16 @@
+---
+title: "DATS 1001 (Fall 2026): Data Science for All"
+author: "Imaad Abbasi"
+listing:
+  contents: posts
+  feed: true
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+Welcome to my blog, consisting of research on issues I find important in the D.C. area!

@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DATS 1001 (Fall 2026): Data Science for All",
+    "section": "",
+    "text": "Welcome to my blog, consisting of research on issues I find important in the D.C. area!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Disparities in Food Equality between the East and West Side of the River\n\n\n\n\n\n\n\n\nSep 17, 2026\n\n\nImaad Abbasi\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post1/index.html",
+    "href": "posts/post1/index.html",
+    "title": "The Disparities in Food Equality between the East and West Side of the River",
+    "section": "",
+    "text": "Today is my first day as an assistant teacher for FoodPrints, an organization that helps combat food inequities by teaching kids in elementary schools how to sustain themselves. As I sit on the blue line Metro to Eastern Market in Ward 6, I’m reminded of a few sources I viewed recently displaying food access disparities between the east and west sides of the Anacostia river.\n\n\n\n\n\nFigure 1. Map of Grocery Stores in DC (2023)\n\n\nYesterday, I completed an assignment on the map above for the class at my university which put me through the FoodPrints program — Hands-On Food Education in the Global Food Institute Department — and it was evident that grocery stores fell short on the east side. Moreover, I found an all-or-nothing phenomenon; many areas of the East side contained no grocery stores, while other areas boasted several grocery stores stacked on top of each other. This is a common trend on this map, where services are not well distributed among the District, but rather huddled together where the stores can maximize profit. The focus is not on giving residents access to resources.\n\n\n\nFigure 2. DC Transit on Google Maps\n\n\nTo make matters worse, transit on the East side is significantly restricted. As seen in Figure 2, the green line is essentially the only Metro rail in the part of Southeast DC east of the river, with most areas at least a mile away from a station. This significantly worsens the previous issue, as residents are forced to walk the long distance to these grocery stores."
+  },
+  {
+    "objectID": "posts/post1/index.html#grocery-stores",
+    "href": "posts/post1/index.html#grocery-stores",
+    "title": "The Disparities in Food Equality between the East and West Side of the River",
+    "section": "",
+    "text": "Figure 1. Map of Grocery Stores in DC (2023)\n\n\nYesterday, I completed an assignment on the map above for the class at my university which put me through the FoodPrints program — Hands-On Food Education in the Global Food Institute Department — and it was evident that grocery stores fell short on the east side. Moreover, I found an all-or-nothing phenomenon; many areas of the East side contained no grocery stores, while other areas boasted several grocery stores stacked on top of each other. This is a common trend on this map, where services are not well distributed among the District, but rather huddled together where the stores can maximize profit. The focus is not on giving residents access to resources.\n\n\n\nFigure 2. DC Transit on Google Maps\n\n\nTo make matters worse, transit on the East side is significantly restricted. As seen in Figure 2, the green line is essentially the only Metro rail in the part of Southeast DC east of the river, with most areas at least a mile away from a station. This significantly worsens the previous issue, as residents are forced to walk the long distance to these grocery stores."
+  },
+  {
+    "objectID": "posts/post1/index.html#foodprints-schools",
+    "href": "posts/post1/index.html#foodprints-schools",
+    "title": "The Disparities in Food Equality between the East and West Side of the River",
+    "section": "FoodPrints Schools",
+    "text": "FoodPrints Schools\nFoodPrints is arguably the best example of a community-oriented solution due to its incorporation of gardens and group-cooking lessons. Furthermore, the most impoverished schools carry farm stands, places requested by the communities where families can buy fresh, affordable produce. I encountered a much better distribution across D.C. here.\n\nlibrary(ggplot2)\ndf &lt;- data.frame(\n  Ward = c(\"Ward 1\", \"Ward 2\", \"Ward 3\", \"Ward 4\", \"Ward 5\", \"Ward 6\", \"Ward 7\", \"Ward 8\"),\n  Region = c(rep(\"West of River\", 6), rep(\"East of River\", 2)),\n  Schools = c(1, 1, 0, 3, 3, 6, 3, 3)\n  )\nggplot(df, aes(x = Ward, y = Schools, fill = Region)) +\n  geom_col() +\n  labs(\n    x = \"Ward\",\n    y = \"Number of Schools\",\n    fill = \"Region\",\n    title = \"FoodPrints Schools by Ward\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\nmean_east_of_river &lt;- (3+3)/2\nmean_west_of_river &lt;- (round)((1+1+0+3+3+6)/6, digits = 2)\n\nThe average amount of schools per ward east of the river was slightly greater than the average of those west of the river, at 3 and 2.33 respectively. Still, because of the grocery store deficit, I feel that there should be a larger focus on Wards 7 and 8. The distribution doesn’t need to be proportionate. Ward 6 already proves this, holding 6 of the schools in the program, compared to 1-3 schools in other wards."
+  },
+  {
+    "objectID": "posts/post1/index.html#farmers-markets",
+    "href": "posts/post1/index.html#farmers-markets",
+    "title": "The Disparities in Food Equality between the East and West Side of the River",
+    "section": "Farmers’ Markets",
+    "text": "Farmers’ Markets\nFarmers’ markets are another community-oriented solution, and this map again displays an even distribution across the District. However, there are a few downsides to farmers’ markets:\n\nThey tend to be less convenient, open less days of the week.\nThe prices are often more expensive due to their inability to monopolize on supply chains in the same way that grocery stores do.\n\nStill, they are fresh, sustainable ways to be fed by members of the community. With the limited options available, these can be a significant upgrade for residents of poor districts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Imaad Abbasi",
+    "section": "",
+    "text": "Imaad Abbasi is a Pakistani-American from the outskirts of Chicago, Illinois. His parents came to the US at a young age and taught him about Islamic culture, immigration reform, and the international world. He is currently at GW studying Economics and Political Science with a Public Policy focus, minoring in Data Science. He likes to play guitar, learn Spanish, and write about politics in his free time."
+  }
+]

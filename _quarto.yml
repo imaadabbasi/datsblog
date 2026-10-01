@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  description: "A blog built with Quarto"
+  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  title: "DATS 1001"
+  navbar:
+    right:
+      - about.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/imaadabbasi/
+      - icon: instagram
+        href: https://www.instagram.com/imaad_abbasi/
+format:
+  html:
+    theme:
+      - cerulean
+    css: styles.css
+
+editor: visual
+
